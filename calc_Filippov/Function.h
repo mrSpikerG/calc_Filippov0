@@ -12,8 +12,7 @@ inline int mul(int firstNum, int secondNum) {
 	return firstNum * secondNum;
 }
 
-inline int div(int firstNum, int secondNum) {
-	return firstNum / secondNum;
-}
+float div(int, int);
+
 bool isBigger(int, int);
 bool isSmaller(int, int);
