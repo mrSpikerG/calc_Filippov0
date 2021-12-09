@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="calc_Filippov.cpp" />
+    <ClCompile Include="Function.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h" />

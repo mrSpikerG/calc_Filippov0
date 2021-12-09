@@ -15,3 +15,5 @@ inline int mul(int firstNum, int secondNum) {
 inline int div(int firstNum, int secondNum) {
 	return firstNum / secondNum;
 }
+bool isBigger(int, int);
+bool isSmaller(int, int);
