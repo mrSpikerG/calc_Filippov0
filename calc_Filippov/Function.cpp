@@ -1,6 +1,6 @@
 #include "Function.h"
 #include <iostream>
-bool isBigger(int firstNum, int secondNum) {
+bool func::isBigger(int firstNum, int secondNum) {
 	if (firstNum > secondNum) {
 		return true;
 	}
@@ -9,7 +9,7 @@ bool isBigger(int firstNum, int secondNum) {
 	}
 }
 
-bool isSmaller(int firstNum, int secondNum) {
+bool func::isSmaller(int firstNum, int secondNum) {
 	if (firstNum < secondNum) {
 		return true;
 	}
@@ -18,11 +18,12 @@ bool isSmaller(int firstNum, int secondNum) {
 	}
 }
 
-inline float div(int firstNum, int secondNum) {
-	if (secondNum == 0) {
+float func::div(int firstNum, int secondNum) {
+	if (secondNum != 0) {
 		return firstNum / secondNum;
 	}
 	else {
 		std::cout << "\nEception error";
+		return 0;
 	}
 }
